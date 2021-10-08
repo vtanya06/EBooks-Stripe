@@ -4,7 +4,7 @@
   "description": "app to sell eBook",
   "main": "app.js",
   "scripts": {
-    "start": "npm run buid"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
