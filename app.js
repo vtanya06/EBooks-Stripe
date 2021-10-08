@@ -10,7 +10,7 @@ const app =express();
 app.engine('handlebars', expHbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
-//body parser middle ware
+//body-parser middle ware
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
