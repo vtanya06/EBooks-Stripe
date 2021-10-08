@@ -1,6 +1,9 @@
 {
   "name": "ebooks--stripe",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.13.1"
+  },
   "description": "app to sell eBook",
   "main": "app.js",
   "scripts": {
